@@ -12,12 +12,11 @@ body, html {
 }
 
 body {
-    
     background-position: right center;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url(../Imagens/imagens/mundo-mario.jpg);
+    background-image: url(../Imagens/fundo-mario.jpg);
 }
 
 .menu a img#mlogo{
@@ -96,8 +95,6 @@ body {
     left: 4px;
     padding: 10px;
 
-    border-radius: 10px;
-    background-color: rgba(0, 0, 0, 0.36);
     font-size: .9em;
 }
 
