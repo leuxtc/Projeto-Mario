@@ -23,16 +23,21 @@
         <article class="conteudo">
             <img src="Imagens/titulo.png" alt="Super Mario Bros" id="titulo">
             <p>Mario é um encanador junto com seu irmão Luigi. Um dia, eles vão parar no reino dos cogumelos, governado pela Princesa Peach, mas ameaçado pelo rei dos Koopas, que faz de tudo para conseguir reinar em todos os lugares.</p>
+            
             <img src="Imagens/cano.png" alt="Cano" id="cano">
             <img src="Imagens/super-mario-chars.png" alt="Imagem mario" id="mario">
+           
             <button type="button" id="btn" onclick="mostrarVideo()">Veja o trailer<span class="material-symbols-outlined">expand_more</span></button>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/Cb4WV4aXBpk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen id="video"></iframe>
+            
+            <div id="video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/Cb4WV4aXBpk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
         </article>
     </main>
     <script>
         function mostrarVideo() {
             if(video.style.display == 'none'){
-                video.style.display = 'block'    
+                video.style.display = 'block'
             } else {
                 video.style.display = 'none'
             }

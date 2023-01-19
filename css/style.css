@@ -107,10 +107,10 @@ body, html {
     left: -34vw;
     top: -280px;
 
-    padding: 9px 30px;
+    padding: 10px 50px;
     border: 0px;
     border-radius: 30px;
-    
+
     font-weight: bolder;
     color: white;
     background-color: red;
@@ -119,25 +119,27 @@ body, html {
 
 .conteudo #btn:hover {
     transition: 1s;
-    padding: 9px 30px 50px 9px;
     transform: scale(1.1);
 }
 
 .material-symbols-outlined {
-    position: relative;
-    top: 5px;
+    position: absolute;
+    top: 9px;
 }
 
-iframe#video {
-    transition: 1s;
+div#video {
     position: absolute;
-    
+
     top: 74vh;
-    left: -90px;
+    left: -85px;
 
     padding: 10px;
-    border-radius: 60px;
+    border-radius: 10px;
     background-color: red;
     
     display: none;
+}
+
+iframe {
+    border-radius: 10px;
 }
