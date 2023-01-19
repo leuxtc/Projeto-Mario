@@ -35,14 +35,13 @@ body, html {
     display: inline;
     
     left: 75vw;
-    top: -50px;
+    top: -45px;
     font-weight: bolder;
     font-size: 1.2em;
 }
 
 .menu ul li a {
     padding: 8px 10px;
-    margin: 6px;
     
     text-decoration: none;
     color: white;

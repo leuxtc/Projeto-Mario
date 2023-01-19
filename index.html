@@ -12,8 +12,10 @@
 <body>
     <header>
         <nav class="menu">
-            <a href="#"><img src="Imagens/logo-chapeu-mario.png" alt="Chapéu do mário" id="mlogo"></a>
-            <ul>
+            <a href="#">
+                <img src="Imagens/logo-chapeu-mario.png" alt="Chapéu do mário" id="mlogo">
+            </a>
+            <ul id="nav">
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Detalhes</a></li>
             </ul>
@@ -27,7 +29,9 @@
             <img src="Imagens/cano.png" alt="Cano" id="cano">
             <img src="Imagens/super-mario-chars.png" alt="Imagem mario" id="mario">
            
-            <button type="button" id="btn" onclick="mostrarVideo()">Veja o trailer<span class="material-symbols-outlined">expand_more</span></button>
+            <button type="button" id="btn" onclick="mostrarVideo()">Ver trailer
+                <span class="material-symbols-outlined">expand_more</span>
+            </button>
             
             <div id="video">
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/Cb4WV4aXBpk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
